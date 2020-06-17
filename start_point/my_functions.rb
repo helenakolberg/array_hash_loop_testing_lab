@@ -10,8 +10,12 @@ def sum_array(numbers)
     return result
 end
 
-
-
 def is_item_in_array(array, item)
         return array.include?(item)
 end
+
+
+def get_first_key(hash)
+    return hash.keys[0]
+end
+
