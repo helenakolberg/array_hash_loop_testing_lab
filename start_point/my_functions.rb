@@ -10,10 +10,8 @@ def sum_array(numbers)
     return result
 end
 
+
+
 def is_item_in_array(array, item)
-    if (item)
-        return true
-    else
-        return false
-    end
+        return array.include?(item)
 end
