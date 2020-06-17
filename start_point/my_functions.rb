@@ -9,3 +9,11 @@ def sum_array(numbers)
     end
     return result
 end
+
+def is_item_in_array(array, item)
+    if (item)
+        return true
+    else
+        return false
+    end
+end
